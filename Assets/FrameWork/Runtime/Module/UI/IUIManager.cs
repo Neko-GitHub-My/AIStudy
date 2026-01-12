@@ -1,11 +1,12 @@
 using System.Threading.Tasks;
+using Framework.Core;
 
 namespace Framework.Module.UI
 {
     /// <summary>
     /// UI 管理接口
     /// </summary>
-    public interface IUIManager : Core.IModule
+    public interface IUIManager : IModule
     {
         /// <summary>
         /// 打开面板

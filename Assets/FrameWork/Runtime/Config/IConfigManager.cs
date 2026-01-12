@@ -1,9 +1,11 @@
+using Framework.Core;
+
 namespace Framework.Config
 {
     /// <summary>
     /// 配置管理接口
     /// </summary>
-    public interface IConfigManager : Core.IModule
+    public interface IConfigManager : IModule
     {
         /// <summary>
         /// 加载配置

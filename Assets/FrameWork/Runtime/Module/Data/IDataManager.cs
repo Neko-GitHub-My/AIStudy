@@ -1,9 +1,11 @@
+using Framework.Core;
+
 namespace Framework.Module.Data
 {
     /// <summary>
     /// 数据管理接口
     /// </summary>
-    public interface IDataManager : Core.IModule
+    public interface IDataManager : IModule
     {
         /// <summary>
         /// 加载数据表

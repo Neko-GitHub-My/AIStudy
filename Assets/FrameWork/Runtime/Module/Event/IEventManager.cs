@@ -1,11 +1,12 @@
 using System;
+using Framework.Core;
 
 namespace Framework.Module.Event
 {
     /// <summary>
     /// 事件管理接口
     /// </summary>
-    public interface IEventManager : Core.IModule
+    public interface IEventManager : IModule
     {
         /// <summary>
         /// 订阅事件

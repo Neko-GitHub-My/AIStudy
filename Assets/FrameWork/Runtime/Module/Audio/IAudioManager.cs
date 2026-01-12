@@ -1,9 +1,11 @@
+using Framework.Core;
+
 namespace Framework.Module.Audio
 {
     /// <summary>
     /// 音频管理接口
     /// </summary>
-    public interface IAudioManager : Core.IModule
+    public interface IAudioManager : IModule
     {
         /// <summary>
         /// 播放背景音乐

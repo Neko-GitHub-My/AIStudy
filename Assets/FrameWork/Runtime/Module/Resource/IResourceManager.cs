@@ -2,12 +2,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
+using Framework.Core;
+
 namespace Framework.Module.Resource
 {
     /// <summary>
     /// 资源管理接口
     /// </summary>
-    public interface IResourceManager : Core.IModule
+    public interface IResourceManager : IModule
     {
         /// <summary>
         /// 异步加载资源

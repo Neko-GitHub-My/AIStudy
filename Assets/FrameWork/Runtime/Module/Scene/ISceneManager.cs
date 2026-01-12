@@ -1,11 +1,13 @@
 using System.Threading.Tasks;
 
+using Framework.Core;
+
 namespace Framework.Module.Scene
 {
     /// <summary>
     /// 场景管理接口
     /// </summary>
-    public interface ISceneManager : Core.IModule
+    public interface ISceneManager : IModule
     {
         /// <summary>
         /// 加载场景

@@ -1,12 +1,14 @@
 using System;
 using System.Threading.Tasks;
 
+using Framework.Core;
+
 namespace Framework.Module.Network
 {
     /// <summary>
     /// 网络管理接口
     /// </summary>
-    public interface INetworkManager : Core.IModule
+    public interface INetworkManager : IModule
     {
         /// <summary>
         /// 连接服务器

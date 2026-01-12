@@ -1,4 +1,5 @@
 using System;
+
 using Framework.Core;
 
 namespace Framework.Module.Event
